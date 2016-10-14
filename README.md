@@ -20,7 +20,7 @@
 
 * [访问者模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F.md)
 
-* [中介者模式]()
+* [中介者模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F.md)
 
 ## 数据结构&算法
 
