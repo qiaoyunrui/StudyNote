@@ -32,6 +32,6 @@
 
 ## 操作系统
 
-* [生产者消费者问题]()
+* [生产者消费者问题](https://github.com/qiaoyunrui/StudyNote/blob/master/OperatingSystem/%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98.md)
 
 ## 其他
