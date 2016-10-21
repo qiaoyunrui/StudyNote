@@ -30,7 +30,7 @@
 
 * [适配器模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
 
-* [装饰模式]
+* [装饰模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F.md)
 
 ## 数据结构&算法
 
