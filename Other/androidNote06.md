@@ -1,0 +1,7 @@
+# Android Note 06 - ListView
+
+* AbsListView（ListView的父类）是一个列表控件的抽象。AbsListView 定义了集合视图的逻辑框架（这里有点像模板方法模式），比如Adapter模式的应用、复用Item View的逻辑、布局子视图的逻辑等，子类只需要覆写特定的方法即可实现集合视图的功能。
+
+* 首先在AbsListView类型的View中添加窗口（onAttachedToWindow函数）时会调用Adapter中的getCount函数获取到元素的个数，然后在onLayout函数中调用layoutChilden函数对所有子元素进行布局。AbsListView中并没有实现layoutChilden这个函数，具体的实现在子类中。
+
+* ListView等集合控件通过Adapter来获取Item View的数量、布局、数据等，在这里最为重要的就是getView函数，这个函数返回一个View类型的对象，也就是Item View。由于它返回的是一个View抽象，而千变万化的UI视图都是View的子类，通过依赖抽象这个简单的原则和Adapter模式就将Item View的变化隔离了，保证了 AbsListView 类族的高度可定制化。在获取了View在之后，将这些View通过特定的布局方式设置到对应的位置上，再加上Item View的复用机制，整个ListView就运转起来了。
