@@ -36,7 +36,7 @@
 
 * [享元模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F.md)
 
-* [外观模式]()
+* [外观模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F.md)
 
 ## 数据结构&算法
 
