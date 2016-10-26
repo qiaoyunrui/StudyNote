@@ -35,7 +35,7 @@
 
 * [面向对象的五个基本原则](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%BA%94%E4%B8%AA%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.md)
 
-* [建造者模式]()
+* [建造者模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.md)
 
 * [工厂方法模式]()
 
