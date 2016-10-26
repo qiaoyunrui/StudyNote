@@ -16,6 +16,8 @@
 
 ### Widgets
 
+#### Other
+
 * [RecyclerView简单分析](https://github.com/qiaoyunrui/StudyNote/blob/master/Android/RecyclerView%E7%AE%80%E5%8D%95%E5%88%86%E6%9E%90.md)
 
 #### Material Design
@@ -30,6 +32,8 @@
 ## Linux
 
 ## 设计模式
+
+* [面向对象的五个基本原则]()
 
 * [迭代器模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
 
