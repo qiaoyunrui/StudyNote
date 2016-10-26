@@ -33,7 +33,7 @@
 
 ## 设计模式
 
-* [面向对象的五个基本原则]()
+* [面向对象的五个基本原则](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%BA%94%E4%B8%AA%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.md)
 
 * [迭代器模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
 
