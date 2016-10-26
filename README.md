@@ -35,6 +35,8 @@
 
 * [面向对象的五个基本原则](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%BA%94%E4%B8%AA%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.md)
 
+* [建造者模式]()
+
 * [迭代器模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
 
 * [模板方法模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.md)
@@ -64,5 +66,11 @@
 ## 操作系统
 
 * [生产者消费者问题](https://github.com/qiaoyunrui/StudyNote/blob/master/OperatingSystem/%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98.md)
+
+## 开源框架
+
+* [Glide Usage]()
+
+* [Picasso Usage]()
 
 ## 其他
