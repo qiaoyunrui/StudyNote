@@ -89,30 +89,32 @@ mFabTest.hide();
 想要实现这种动画需要使用第三方库：[fab-transformation](https://github.com/konifar/fab-transformation)
 
 1. 添加依赖
-```java
-dependencies {
-    compile 'konifar:fab-transformation:1.0.0'
-}
-```
-
+  ```java
+  dependencies {
+      compile 'konifar:fab-transformation:1.0.0'
+  }
+  ```
+  
 2. 把FAB和要转化的View放在布局中
 
 3. 用RevealFrameLayout把转化的View包起来
 
 4. 代码实现转化过程
-  * FAB变为View
+
+
+* FAB变为View
 ```java
 FabTransformation.with(fab)
                  .transformTo(toolbarFooter);
 ```
 
-  * View转化为FAB
+* View转化为FAB
 ```java
 FabTransformation.with(fab)
                  .transformFrom(toolbarFooter);
 ```
 
-  * 更多
+* 更多
 ```java
 FabTransformation.with(fab)
                  .overlay(overlayView)
