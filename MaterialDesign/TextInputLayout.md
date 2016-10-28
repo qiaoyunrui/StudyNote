@@ -70,3 +70,5 @@ mTilUsername.getEditText().addTextChangedListener(new TextWatcher() {
 * 如果TextInputLayout包含的EditText的inputType是password类型的话，会自动添加显示/隐藏按钮。
 
   <img alt="pic" src="http://ww3.sinaimg.cn/large/005TG3l2jw1f983ptm820j30k00zkab5.jpg" height="450px"/>
+
+**注意：本文所使用的图片部分来自互联网，如有侵权立即删除。**
