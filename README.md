@@ -31,7 +31,7 @@
 
 * [策略模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.md)
 
-* [状态模式]()
+* [状态模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.md)
 
 * [迭代器模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
 
