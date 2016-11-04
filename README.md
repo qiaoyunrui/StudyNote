@@ -8,6 +8,8 @@
 
 * [Java基础二](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/Java%E5%9F%BA%E7%A1%80%E4%BA%8C.md)
 
+* [Java关键字volatile的使用]()
+
 ### JVM
 
 * ...
