@@ -57,7 +57,3 @@ Java提供了两个用于高精度计算的类：**BigInteger** 和 **BigDecimal
 * BigInteger支持任意精度的整数。
 
 * BigDecimal支持任何精度的[定点数](https://baike.baidu.com/view/686808.htm)。
-
-## 数组
-
-当创建一个数组对象时，实际上就是创建了一个 **引用数组**，并且每个引用都会自动被初始化为一个特定值。
