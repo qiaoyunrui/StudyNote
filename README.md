@@ -10,7 +10,7 @@
 
 * [Java基础三](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/Java%E5%9F%BA%E7%A1%80%E4%B8%89.md)
 
-* [Java基础四]()
+* [Java基础四](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/Java%E5%9F%BA%E7%A1%80%E5%9B%9B.md)
 
 * [Java关键字volatile的使用](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/Java%E5%85%B3%E9%94%AE%E5%AD%97volatile%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F.md)
 
