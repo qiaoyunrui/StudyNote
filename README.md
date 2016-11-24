@@ -38,7 +38,7 @@
 
 ## Linux
 
-* [Linux常用命令]()
+* [Linux常用命令](https://github.com/qiaoyunrui/StudyNote/blob/master/Linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
 
 ## 设计模式
 
@@ -94,7 +94,7 @@
 
   * [总览](https://github.com/qiaoyunrui/StudyNote/blob/master/MaterialDesign/%E6%80%BB%E8%A7%88.md)
 
-  * [DrawerLayout & CoordinatorLayout & Toolbar & TabLayout的经典实现]()
+  * [DrawerLayout & CoordinatorLayout & Toolbar & TabLayout的经典实现](https://github.com/qiaoyunrui/StudyNote/blob/master/MaterialDesign/DrawerLayout%26CoordinatorLayout%26Toolbar%26TabLayout%E7%9A%84%E7%BB%8F%E5%85%B8%E5%AE%9E%E7%8E%B0.md)
 
 ## 开源框架
 
