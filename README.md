@@ -36,6 +36,8 @@
 
 ## Linux
 
+* [Linux常用命令]()
+
 ## 设计模式
 
 * [面向对象的五个基本原则](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%BA%94%E4%B8%AA%E5%9F%BA%E6%9C%AC%E5%8E%9F%E5%88%99.md)
@@ -89,6 +91,8 @@
 ## Material Design
 
   * [总览](https://github.com/qiaoyunrui/StudyNote/blob/master/MaterialDesign/%E6%80%BB%E8%A7%88.md)
+
+  * [DrawerLayout & CoordinatorLayout & Toolbar & TabLayout的经典实现]()
 
 ## 开源框架
 
