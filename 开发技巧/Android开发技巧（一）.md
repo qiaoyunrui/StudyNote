@@ -12,6 +12,7 @@ ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, mDrawerLayout, mToolbar, R.string.app_name_title, R.string.app_name_title
         );
 mDrawerLayout.setDrawerListener(toggle);
+toggle.syncState();
 ```
 
 而且，在使用了`ActionBarDrawerToggle`之后，就不需要在`onOptionsItemSelected()`中监听`android.R.id.home`的点击事件了。
