@@ -4,7 +4,7 @@
 
 ### 效果图
 
-![效果图](http://ww3.sinaimg.cn/mw690/005TG3l2jw1fa8xberoczg30u01hcb29.gif)
+![效果图](https://github.com/qiaoyunrui/StudyNote/blob/master/Resources/device-2016-11-28-194533.gif)
 
 ### 实现
 
