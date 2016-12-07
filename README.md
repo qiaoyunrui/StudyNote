@@ -110,8 +110,8 @@
 
 ## Kotlin
 
-* [Kotlin实现单例模式]()
+* [Kotlin实现单例模式](https://github.com/qiaoyunrui/StudyNote/blob/master/Kotlin/Kotlin%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
 
-* [Kotlin尾递归]()
+* [Kotlin尾递归](https://github.com/qiaoyunrui/StudyNote/blob/master/Kotlin/Kotlin%E5%B0%BE%E9%80%92%E5%BD%92.md)
 
 ## 其他
