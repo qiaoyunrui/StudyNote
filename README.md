@@ -26,7 +26,7 @@
 
 ## Android
 
-* [Android 生命周期](Android/Android Life Cycle.md)
+* [Android 生命周期](./Android/Android Life Cycle.md)
 
 * [TabLayout与ViewPager的联合使用](http://qiaoyunrui.github.io/2016/04/09/TABLayoutAndViewPager/)
 
