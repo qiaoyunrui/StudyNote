@@ -34,7 +34,7 @@
 
 * [处理应用的Crash信息](http://qiaoyunrui.github.io/2016/07/11/androidCrash/)
 
-* [Android RecyclerView的基本使用](./Android/AndroidRecycler.md)
+* [Android RecyclerView的基本使用](./Android/androidRecycler.md)
 
 * [Android基本框架](./Android/androidStructure.md)
 
