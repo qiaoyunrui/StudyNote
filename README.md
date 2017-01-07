@@ -37,6 +37,11 @@
 
 * [处理应用的Crash信息](http://qiaoyunrui.github.io/2016/07/11/androidCrash/)
 
+* [Android RecyclerView的基本使用](./Android/AndroidRecycler.md)
+
+* [Android基本框架](./Android/androidStructure.md)
+
+* [TabLayout与ViewPager的联合使用](./Android/TABLayoutAndViewPager.md)
 
 ## Linux
 
@@ -82,7 +87,7 @@
 
 ## 网络
 
-* [数据链路层框架图](http://qiaoyunrui.github.io/2016/07/11/dataLink/)
+* [数据链路层框架图](./NetWork/dataLink.md)
 
 ## 操作系统
 
@@ -100,9 +105,6 @@
 
 ## 开源框架
 
-* [Glide Usage]()
-
-* [Picasso Usage]()
 
 ## 开发技巧
 
