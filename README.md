@@ -32,7 +32,7 @@
 
 * [Android中的代理模式](https://github.com/qiaoyunrui/StudyNote/blob/master/Android/Android%E4%B8%AD%E7%9A%84%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.md)
 
-* [处理应用的Crash信息](http://qiaoyunrui.github.io/2016/07/11/androidCrash/)
+* [处理应用的Crash信息](./Android/androidCrash.md)
 
 * [Android RecyclerView的基本使用](./Android/androidRecycler.md)
 
