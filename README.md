@@ -84,6 +84,8 @@
 
 * [稀疏矩阵](./DataStructure/稀疏矩阵.md)
 
+* [KMP](./DataStructure/KMP.md)
+
 ## 网络
 
 * [数据链路层框架图](./NetWork/dataLink.md)
