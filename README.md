@@ -20,6 +20,8 @@
 
 * [split()函数解析(一)](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/spilt%E8%A7%A3%E6%9E%9001.md)
 
+* [Java中的一些工具](./Java/JavaSE/Java中的一些工具.md)
+
 ### JVM
 
 * ...
@@ -85,6 +87,10 @@
 * [稀疏矩阵](./DataStructure/稀疏矩阵.md)
 
 * [KMP](./DataStructure/KMP.md)
+
+* [二分查找](./DataStructure/二分查找.md)
+
+* [合并排序](./DataStructure/合并排序.md)
 
 ## 网络
 
