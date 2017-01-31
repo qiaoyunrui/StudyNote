@@ -23,3 +23,20 @@
 ## List 接口
 
 * void sort(Comparator<? super E> c)
+* E get(int index)
+* E set(int index, E element)
+* void add(int index, E element)
+* E remove(int index)
+* int indexOf(Object o)
+* ListIterator<E> listIterator()
+* List<E> subList(int fromIndex, int toIndex)
+* ...
+
+## ArrayList
+
+* initialCapacity - 初始容量（如果不指定，默认是10）
+
+* transient Object[] elementData - 存储数据的数组
+  `transient` 关键字的作用是：不序列化这个数据。
+
+ArrayList内部是通过数组方式实现的，
