@@ -4,7 +4,7 @@
 
 ### Java SE
 
-* [Java基础一](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/Java%E5%9F%BA%E7%A1%80.md)
+* [Java基础一](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/Java%E5%9F%BA%E7%A1%80%E4%B8%80.md)
 
 * [Java基础二](https://github.com/qiaoyunrui/StudyNote/blob/master/Java/JavaSE/Java%E5%9F%BA%E7%A1%80%E4%BA%8C.md)
 
