@@ -94,3 +94,5 @@ transient int size = 0;
 transient Node<E> first;    //指向第一个结点
 transient Node<E> last;     //指向最后一个结点
 ```
+
+LinkedList还实现了队列(`queue`)的一些操作，例如：`pop()`、`push()`等等

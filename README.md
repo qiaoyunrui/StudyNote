@@ -24,6 +24,8 @@
 
 * [Java集合](./Java/JavaSE/Java集合.md)
 
+* [final域的重排序](./Java/JavaSE/final域的重排序.md)
+
 ### JVM
 
 * ...
