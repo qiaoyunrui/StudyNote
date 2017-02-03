@@ -35,7 +35,17 @@ public HashSet(int initialCapacity) {
 
 ## TreeSet
 
+*实现了`NavigableSet`接口*
 
+`NavigableSet`接口提供了一系列导航方法，例如：
+
+* lower(E):E
+* floor(E):E
+* ceiling(E):E
+* higher(E):E
+* ...
+
+`TreeSet`内部持有一个`NavigableMap`引用，然后在`TreeSet`的构造方法中将该引用实例化为一个`TreeMap`对象。和`HashSet`类似，对HashSet的相关操作基本上都是通过执行`TreeMap`的相关方法实现的。
 
 ## 以上三者的区别
 
