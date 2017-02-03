@@ -22,7 +22,11 @@
 
 * [Java中的一些工具](./Java/JavaSE/Java中的一些工具.md)
 
-* [Java集合](./Java/JavaSE/Java集合.md)
+* [Java集合 - List](./Java/JavaSE/Java集合.md)
+
+* [Java集合 - Set](./Java/JavaSE/Java集合 - Set.md)
+
+* [Java集合 - Stack](./Java/JavaSE/Java集合 - Stack.md)
 
 * [final域的重排序](./Java/JavaSE/final域的重排序.md)
 
