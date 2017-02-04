@@ -28,6 +28,8 @@
 
 * [Java集合 - Stack](./Java/JavaSE/Java集合 - Stack.md)
 
+* [Java容器 - Map](./Java/JavaSE/Java容器 - Map.md)
+
 * [final域的重排序](./Java/JavaSE/final域的重排序.md)
 
 ### JVM
