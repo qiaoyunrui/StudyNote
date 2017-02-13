@@ -92,7 +92,7 @@
 
 * [桥接模式](https://github.com/qiaoyunrui/StudyNote/blob/master/DesignPatterns/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.md)
 
-## 数据结构&算法
+## 数据结构 & 算法
 
 * [稀疏矩阵](./DataStructure/稀疏矩阵.md)
 
@@ -100,7 +100,11 @@
 
 * [二分查找](./DataStructure/二分查找.md)
 
-* [合并排序](./DataStructure/合并排序.md)
+* [树](./DataStructure/树.md)
+
+* 排序
+  * [插入排序](./DataStructure/插入排序.md)
+  * [合并排序](./DataStructure/合并排序.md)
 
 ## 网络
 

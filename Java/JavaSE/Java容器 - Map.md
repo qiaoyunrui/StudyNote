@@ -187,7 +187,3 @@ int initialCapacity;
   ```
 
   该方法首先会对`map`做一次查找，看是否包含该元组，如果已经包含则直接返回，查找过类似于`getEntry()`方法；如果没有找到，则会使用头插法进行插入。
-
-## LinkedHashMap
-
-## TreeMap
