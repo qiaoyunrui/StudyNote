@@ -104,7 +104,7 @@
 
 * 排序
   * [插入排序](./DataStructure/插入排序.md)
-  * [合并排序](./DataStructure/合并排序.md)
+  * [归并排序](./DataStructure/归并排序.md)
 
 ## 网络
 
