@@ -102,6 +102,8 @@
 
 * [树](./DataStructure/树.md)
 
+* [堆](./DataStructure/堆.md)
+
 * 排序
   * [插入排序](./DataStructure/插入排序.md)
   * [归并排序](./DataStructure/归并排序.md)
