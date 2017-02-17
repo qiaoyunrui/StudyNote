@@ -104,6 +104,10 @@
 
 * [堆](./DataStructure/堆.md)
 
+* [二叉查找树](./DataStructure/二叉查找树.md)
+
+* [选择树](./DataStructure/选择树.md)
+
 * 排序
   * [插入排序](./DataStructure/插入排序.md)
   * [归并排序](./DataStructure/归并排序.md)
