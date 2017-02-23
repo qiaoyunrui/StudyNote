@@ -32,9 +32,31 @@
 **注意：** 这两个方法不一定是成对出现的，`onRestoreInstanceState`
 被调用的前提是，该`Activity`确实被销毁了。另外，`onRestoreInstanceState`的`Bundle`参数也会传递到`onCreate()`方法中，可以在`onCreate`中恢复数据。
 
-### `FragmentActivity`中的`onSaveInstanceState`
 
-这个方法在这里的作用就是保存所有合适的`Fragment`的状态。(Save all appropriate fragment state.)
+## `Activity`的启动模式
 
-1. 调用父类的`onSaveInstanceState`方法
-2.
+启动模式共有四种，分别是：`standard`、`singleTop`、`singleTask`、`singleInstance`，可以在`AndroidMenifest.xml`中通过给`<activity>`标签指定`android:launchMode`属性来选择启动模式。
+
+### `standard`
+
+`Activity`默认的启动模式。
+
+在该默认情况下，每启动一个新的`Activity`，它就会在返回栈中入栈，并处于栈顶的位置。系统不会在乎这个`Activity`是否已经在返回栈中存在，每次启动都会重新创建一个新的实例。
+
+### `singleTop`
+
+当`Activity`启动时，如果发现返回栈的栈顶已经是该`Activity`，那么就会直接使用它。如果栈顶不是该`Activity`，那么仍会创建新的实例。
+
+### `singleTask`
+
+每次启动`Activity`的时候，系统首先会在返回栈检查是否存在该活动的实例，如果有则直接使用该实例，并把这个`Activity`上所有的`Activity`全部出栈，如果没有发现，则创建一个新的实例。
+
+### `singleInstance`
+
+指定为`singleInstance`启动模式的`Activity`会启用一个**新**的返回栈来管理这个`Activity`。
+
+## 杀掉当前进程
+
+```java
+android.os.Process.killProcess(android.os.Process.myPid());
+```
