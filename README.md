@@ -149,6 +149,8 @@
 
 * [Kotlin尾递归](https://github.com/qiaoyunrui/StudyNote/blob/master/Kotlin/Kotlin%E5%B0%BE%E9%80%92%E5%BD%92.md)
 
+* [Kotlin位运算](./Kotlin/Kotlin中的位运算.md)
+
 ## 其他
 
 * [Git操作](./其他/Git操作.md)
