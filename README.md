@@ -40,7 +40,11 @@
 
 * [Android杂谈（一）](./Android/Android杂谈（一）.md)
 
-* [Android 生命周期](./Android/Android Life Cycle.md)
+* [Android杂谈（二）](./Android/Android杂谈（二）.md)
+
+* [Activity 生命周期](./Android/Android Life Cycle.md)
+
+* [Fragment 生命周期](./Android/Fragment.md)
 
 * [RecyclerView简单分析](https://github.com/qiaoyunrui/StudyNote/blob/master/Android/RecyclerView%E7%AE%80%E5%8D%95%E5%88%86%E6%9E%90.md)
 
