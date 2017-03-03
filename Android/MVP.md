@@ -28,7 +28,7 @@ public class View {
 
 public class Presenter {
   private View view;
-  private Model model
+  private Model model;
 }
 
 public class model {}
@@ -352,4 +352,4 @@ public class SignInPresenter implements SignInContract.Presenter {
 
 Presenter可以重用，所以不需要每个Activity或者Fragment都为其分配一套MVP，可以几个Activity或者Fragment共用一个Presenter。
 
-想要了解更多的话，请移步本人的学习笔记，如果觉得有帮助的话，请点一个star。
+想要了解更多的话，请移步本人的[学习笔记](https://github.com/qiaoyunrui/StudyNote)，如果觉得有帮助的话，请点一个star✨。
