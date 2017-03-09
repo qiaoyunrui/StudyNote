@@ -64,4 +64,4 @@ scrapped、cached和exCached集合定义在RecyclerView.Recycler中，分别表�
 
 scrapped集合中存储的其实是正在执行REMOVE操作的ItemView。
 
-首先判断集合cached是否満了，如果已満就从cached集合中移出一个到recycled集合中去，再把新的ItemView添加到cached集合；如果不満就将ItemView直接添加到cached集合。 
+`recycleViewHolderInternal`：首先判断集合cached是否満了，如果已満就从cached集合中移出一个到recycled集合中去，再把新的ItemView添加到cached集合；如果不満就将ItemView直接添加到cached集合。
