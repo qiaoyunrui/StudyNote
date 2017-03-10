@@ -42,6 +42,8 @@
 
 * [Android杂谈（二）](./Android/Android杂谈（二）.md)
 
+* [Android杂谈（三）](./Android/Android杂谈（三）.md)
+
 * [Activity 生命周期](./Android/Android Life Cycle.md)
 
 * [Fragment 生命周期](./Android/Fragment.md)
