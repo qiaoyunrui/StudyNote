@@ -169,6 +169,8 @@
 
 * [Android开发技巧（二）](https://github.com/qiaoyunrui/StudyNote/blob/master/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/Android%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7%EF%BC%88%E4%BA%8C%EF%BC%89.md)
 
+* [Android开发技巧（二）](开发技巧/Android开发技巧（三）.md)
+
 ## Kotlin
 
 * [Kotlin实现单例模式](https://github.com/qiaoyunrui/StudyNote/blob/master/Kotlin/Kotlin%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
