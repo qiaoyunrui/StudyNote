@@ -156,3 +156,31 @@ Messenger 是以串行的方式处理客户端发来的消息，如果大量的�
 2. 客户端
 
 客户端首先要绑定服务端的 Service，绑定成功后，将服务端返回的 Binder 对象转成 AIDL　接口所属的类型，接着就可以调用 AIDL 中的方法了。
+
+RemoteCallbackList 是系统专门提供的用于删除跨进程 listener 的接口。它的内部有一个 Map 结构专门用来保存所有的 AIDL 回调，这个 Map 的 key 是 IBinder 类型，value 是 Callback 类型。RemoteCallbackList 内部实现了线程同步的功能。当客户端进程终止的时候，RemoteCallbackList 能够自动移除客户端所注册的 listener。
+
+遍历 RemoteCallbackList 时，要使用 beginBroadcast 和 finishBroadcast。
+
+虽然多次跨进程传输客户端的同一个对象会在服务端生成不同的对象，但是这些新生成的对象有一个共同点，那就是它们底层的 Binder 对象是同一个。
+
+客户端调用远程服务的方法，被调用的方法运行在服务端的 Binder 线程池中，同时 **客户端线程会被挂起**。如果明确知道某个远程方法是耗时的，那么就要避免在客户端 UI 线程中去访问远程方法。由于客户端的 onServiceConnected 和 onServiceDisconnected 方法都运行在 UI 线程中，所以也不可以在它们里面直接调用服务端的耗时方法。由于服务端的方法本身就运行在服务端的 Binder 线程池中，所以服务端方法本身就可以执行大量耗时任务，这个时候不要在服务端方法中开线程去进行异步任务。
+
+
+### 为 Binder 设置死亡代理
+
+```java
+service.linkToDeath(new IBinder.DeathRecipient() {
+    @Override
+    public void binderDied() {
+      //在客户端的 Binder 线程池中调用
+    }
+}, 0);
+```
+
+## 使用 ContentProvider
+
+ContentProvider 的底层实现也是 Binder。
+
+## 使用 Socket
+
+..

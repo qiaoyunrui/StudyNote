@@ -74,7 +74,7 @@
 
 * [AIDL](./Android/AIDL.md)
 
-* [IPC的几种方式](./Android/IPC几种方式.md)
+* [IPC的几种方式](./Android/IPC几种方式.md   )
 
 ## Linux
 
