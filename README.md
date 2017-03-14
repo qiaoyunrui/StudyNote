@@ -72,6 +72,10 @@
 
 * [Service](./Android/Service.md)
 
+* [AIDL](./Android/AIDL.md)
+
+* [IPC的几种方式](./Android/IPC几种方式.md)
+
 ## Linux
 
 * [Linux常用命令](https://github.com/qiaoyunrui/StudyNote/blob/master/Linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
