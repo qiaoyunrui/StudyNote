@@ -36,6 +36,8 @@
 
 * [Java 内存区域](./Java/JVM/Java内存区域.md)
 
+* [对象创建的流程](./Java/JVM/对象创建的流程.md)
+
 ## Android
 
 * [Android杂谈（一）](./Android/Android杂谈（一）.md)
