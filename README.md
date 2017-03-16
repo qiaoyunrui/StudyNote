@@ -38,6 +38,8 @@
 
 * [对象创建的流程](./Java/JVM/对象创建的流程.md)
 
+* [垃圾收集器与内存分配策略](./Java/JVM/垃圾收集器.md)
+
 ## Android
 
 * [Android杂谈（一）](./Android/Android杂谈（一）.md)
