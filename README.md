@@ -24,11 +24,11 @@
 
 * [Java集合 - List](./Java/JavaSE/Java集合.md)
 
-* [Java集合 - Set](./Java/JavaSE/Java集合 - Set.md)
+* [Java集合 - Set](./Java/JavaSE/Java集合-Set.md)
 
-* [Java集合 - Stack](./Java/JavaSE/Java集合 - Stack.md)
+* [Java集合 - Stack](./Java/JavaSE/Java集合-Stack.md)
 
-* [Java容器 - Map](./Java/JavaSE/Java容器 - Map.md)
+* [Java容器 - Map](./Java/JavaSE/Java容器-Map.md)
 
 * [final域的重排序](./Java/JavaSE/final域的重排序.md)
 
@@ -48,7 +48,7 @@
 
 * [Android杂谈（三）](./Android/Android杂谈（三）.md)
 
-* [Activity 生命周期](./Android/Android Life Cycle.md)
+* [Activity 生命周期](./Android/AndroidLifeCycle.md)
 
 * [Fragment 生命周期](./Android/Fragment.md)
 
@@ -66,7 +66,7 @@
 
 * [TabLayout与ViewPager的联合使用](./Android/TABLayoutAndViewPager.md)
 
-* [Android中Button设置background过程研究](./Android/Android Button研究.md)
+* [Android中Button设置background过程研究](./Android/AndroidButton研究.md)
 
 * [Android性能优化](./Android/Android性能优化.md)
 
