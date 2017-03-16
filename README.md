@@ -80,6 +80,8 @@
 
 * [Android事件分发机制](./Android/事件分发机制.md)
 
+* [获取View宽高的方式](./Android/获取View宽高的方式.md)
+
 ## Linux
 
 * [Linux常用命令](https://github.com/qiaoyunrui/StudyNote/blob/master/Linux/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
@@ -159,6 +161,8 @@
 * [第二章](./读书笔记/Android开发艺术探索/第二章.md)
 
 * [第三章](./读书笔记/Android开发艺术探索/第三章.md)
+
+* [第四章](./读书笔记/Android开发艺术探索/第四章.md)
 
 ## 数据库
 
