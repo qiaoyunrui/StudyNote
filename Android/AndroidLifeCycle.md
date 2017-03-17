@@ -1,4 +1,4 @@
-# Android 生命周期
+  # Android 生命周期
 
 ![Activity Life Cycle](http://ww4.sinaimg.cn/mw690/005TG3l2jw1faxhqx4h4kj30ie0873zi.jpg)
 
