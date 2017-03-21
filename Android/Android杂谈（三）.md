@@ -11,3 +11,11 @@
 1. 重写每个对象的 `Clone()` 方法
 
 2. 通过序列化和反序列化实现。
+
+## 在 Activity 中获取字符串的方式
+
+```java
+getString(R.string.app_name);
+getResources().getString(R.string.app_name);
+Resources.getSystem().getString(R.string.app_name);
+```
