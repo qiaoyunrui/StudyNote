@@ -177,13 +177,15 @@
 
 * [第九章（上）](./读书笔记/Android开发艺术探索/第九章（上）.md)
 
+* [第九章（下）](./读书笔记/Android开发艺术探索/第九章（下）.md)
+
 ## 数据库
 
 * [一些SQL语句](https://github.com/qiaoyunrui/StudyNote/blob/master/DataBase/%E4%B8%80%E4%BA%9BSQL%E8%AF%AD%E5%8F%A5.md)
 
 ## Material Design
 
-  * [总览](https://github.com/qiaoyunrui/StudyNote/blob/master/MaterialDesign/%E6%80%BB%E8%A7%88.md)
+* [总览](https://github.com/qiaoyunrui/StudyNote/blob/master/MaterialDesign/%E6%80%BB%E8%A7%88.md)
 
   * [DrawerLayout & CoordinatorLayout & Toolbar & TabLayout的经典实现](https://github.com/qiaoyunrui/StudyNote/blob/master/MaterialDesign/DrawerLayout%26CoordinatorLayout%26Toolbar%26TabLayout%E7%9A%84%E7%BB%8F%E5%85%B8%E5%AE%9E%E7%8E%B0.md)
 
