@@ -6,6 +6,4 @@ Object 的 `hashCode()` 是一个 native 方法。
 
 HashMap 的 `hash()` 方法就是用来计算 key 的 hash 值。`return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);` 高 16 位与其自身相与。
 
-## put 操作
-
-如果 tab 数组为空，则新创建一个数组，这里的 tab 数组就是用来存放 Node<K,V> 的。通过 `resize()` 方法创建一个新数组。
+...
