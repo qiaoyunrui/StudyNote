@@ -36,6 +36,8 @@
 
 * [ConcurrentLinkedQueue](./Java/JavaSE/ConcurrentLinkedQueue.md)
 
+* [异常](./Java/JavaSE/Exception.md)
+
 ### JVM
 
 * [Java 内存区域](./Java/JVM/Java内存区域.md)
