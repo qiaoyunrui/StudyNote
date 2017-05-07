@@ -1,6 +1,6 @@
 # Kotlin Coroutine
 
-Coroutine 是一个轻量级的线程。
+    Coroutine 是一个轻量级的线程。
 
 `launch(CommonPool) { ... }` 可以类比为 `thread { ... }`，而 `delay(...)` 则可以类比为 `Thread.sleep(...)`。
 
