@@ -83,7 +83,7 @@ Model就很简单了，根据我们上边的描述，就知道Model就相当于�
 
 注意在这里我们采取和Google一样的思路，根据功能进行分包。如图就是我的项目包结构：
 
-![package_structure](.\..\Resources\all_package_structure.PNG)
+![package_structure](../Resources/all_package_structure.PNG)
 
 * model 没错就是MVP中的M
   * local
