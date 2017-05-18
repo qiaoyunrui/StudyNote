@@ -54,7 +54,7 @@ var user = buildUser {
 }
 ```
 
-可以看到，我们在大括号里直接就可以修改 User 的 id，这里其实是调用了 id 的 setter，前面说过了，`data class` 会自动实现 getters 和 setter 方法。同时那个大括号可以看作是 User 的方法体，在自己的内部，当然可以直接使用自己的方法咯。
+可以看到，我们在大括号里直接就可以修改 User 的 id，这里其实是调用了 id 的 setter，前面说过了，`data class` 会自动实现 getters 和 setter 方法。同时那个大括号可以看作是刚刚创建的 User 的方法体，在自己的内部，当然可以直接使用自己的方法咯。
 
 下面的 `modifyUser`也是一样的。
 
