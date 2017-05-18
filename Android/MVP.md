@@ -47,7 +47,7 @@ public class model {}
 
 ### View
 
-在Android中，显示的操作是交给Activity或者Fragment的。所以理所当然的，Activity\Fragment就是MVP中的Presenter了。
+在Android中，显示的操作是交给Activity或者Fragment的。所以理所当然的，Activity\Fragment就是MVP中的View了。
 
 既然把Activity或者Fragment当作View层，即显示层，那么它的工作应该就是显示操作，不应该有其他类型的操作，例如解析数据等等。所以你会发现View中的方法大多就是`showXXX()`，`hideXXX()`等等。
 
