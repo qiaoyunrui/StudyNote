@@ -127,45 +127,68 @@ public void onStart(@Nullable Intent intent, int startId) {
 最后，我们看一下这个 IntentService 的具体使用方法：
 
 ```java
-public class TestService extends IntentService {  
+public class TestService extends IntentService {
 
-    String ex = "";  
-    private Handler mHandler = new Handler() {  
+    private static final String ACTION_FOO = "com.juhezi.test.action.FOO";
+    private static final String ACTION_BAZ = "com.juhezi.test.action.BAZ";
 
-        public void handleMessage(android.os.Message msg) {  
-            Toast.makeText(CoreService.this, "-e " + ex, Toast.LENGTH_LONG)  
-                    .show();  
-        }  
-    };  
+    private static final String EXTRA_PARAM1 = "com.juhezi.test.extra.PARAM1";
+    private static final String EXTRA_PARAM2 = "com.juhezi.test.extra.PARAM2";
 
-    public TestService() {  
-        // 必须定义一个无参数的构造方法，并调用super(name)进行初始化，否则出错。
-        super("CoreService");  
-    }  
+    public static final String TAG = "TestService";
 
-    //这里也可以是 onStart()
-    @Override  
-    public int onStartCommand(Intent intent, int flags, int startId) {  
-        ex = intent.getStringExtra("start");  
-        return super.onStartCommand(intent, flags, startId);  
-    }  
+    public TestService() {
+        super("TestService");
+    }
 
-    @Override  
-    protected void onHandleIntent(Intent intent) {  
-        try {  
-            Thread.sleep(15000);  
-        } catch (InterruptedException e) {  
-            e.printStackTrace();  
-        }  
-        mHandler.sendEmptyMessage(0);  
-        try {  
-            Thread.sleep(5000);  
-        } catch (InterruptedException e) {  
-            e.printStackTrace();  
-        }  
-    }  
+    public static void startActionFoo(Context context, String param1, String param2) {
+        Intent intent = new Intent(context, TestService.class);
+        intent.setAction(ACTION_FOO);
+        intent.putExtra(EXTRA_PARAM1, param1);
+        intent.putExtra(EXTRA_PARAM2, param2);
+        context.startService(intent);
+    }
 
-}  
+    public static void startActionBaz(Context context, String param1, String param2) {
+        Intent intent = new Intent(context, TestService.class);
+        intent.setAction(ACTION_BAZ);
+        intent.putExtra(EXTRA_PARAM1, param1);
+        intent.putExtra(EXTRA_PARAM2, param2);
+        context.startService(intent);
+    }
+
+    @Override
+    protected void onHandleIntent(Intent intent) {
+        if (intent != null) {
+            final String action = intent.getAction();
+            if (ACTION_FOO.equals(action)) {
+                final String param1 = intent.getStringExtra(EXTRA_PARAM1);
+                final String param2 = intent.getStringExtra(EXTRA_PARAM2);
+                handleActionFoo(param1, param2);
+            } else if (ACTION_BAZ.equals(action)) {
+                final String param1 = intent.getStringExtra(EXTRA_PARAM1);
+                final String param2 = intent.getStringExtra(EXTRA_PARAM2);
+                handleActionBaz(param1, param2);
+            }
+        }
+    }
+
+    /**
+     * Handle action Foo in the provided background thread with the provided
+     * parameters.
+     */
+    private void handleActionFoo(String param1, String param2) {
+        Log.i(TAG, "handleActionFoo: " + param1 + " " + param2);
+    }
+
+    /**
+     * Handle action Baz in the provided background thread with the provided
+     * parameters.
+     */
+    private void handleActionBaz(String param1, String param2) {
+        Log.i(TAG, "handleActionBaz: " + param1 + " " + param2);
+    }
+}
 ```
 
 感谢阅读。
