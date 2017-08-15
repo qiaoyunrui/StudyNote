@@ -2,7 +2,7 @@
 
 ## 严格模式
 
-###开启严格模式
+### 开启严格模式
 
 ```java
 if (DebugUtil.DEBUG && Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
