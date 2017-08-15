@@ -11,3 +11,5 @@ public static void actionStart(Context context, String data1, String data2) {
     context.startActivity(intent);
 }
 ```
+
+其实也不算是太佳，应该把 Intent 暴露出来的。
