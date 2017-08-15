@@ -33,3 +33,9 @@ if (DebugUtil.DEBUG && Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD)
 * 未关闭的Closable对象泄露 使用detectLeakedClosableObjects()开启
 * 泄露的Sqlite对象 使用detectLeakedSqlLiteObjects()开启
 * 检测实例数量 使用setClassInstanceLimit()开启
+
+### 查看结果
+
+```shell
+adb logcat | grep StrictMode
+```
